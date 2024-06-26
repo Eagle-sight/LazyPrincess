@@ -1,17 +1,17 @@
 class script(object):
     START_TXT = """Hello {},
-Myself <a href=https://t.me/{}>{}</a>,\n\nTrust me ! I can't even imagine how super-fast i can drive your Database channel \n\nAre you ready for Long Drive Baby...🤪"""
+Myself <a href=https://t.me/{}>{}</a>,\n\nTrust me ! You can't even imagine how super-fast i can drive your Database channel \n\nAre you ready for Long Drive Baby...🤪"""
     LZTHMB_TEXT = """Hello {},
-Glad to see you here. It seems that you really love <a href=https://t.me/LazyDeveloperr >LazyDeveloper's</a> work.\n\n<b>Thumbnail extracting</b> feature will be available soon, please join <a href=https://t.me/LazyDeveloper>Dev Channel</a> and stay tuned for next <a href=https://t.me/LazyDeveloper>update</a>.\n\n  🐞 Report Bug here: <a href=http://t.me/LazyDeveloperSupport>LazyDev Support</a>
+Glad to see you here. It seems that you really love our channel <a href=https://t.me/sablinkhere >Ultimate Link Provider</a> 💎\n\n<b>Get all Contents</b> && Backup links at <a href=https://t.me/DH_Networks>Direct Hub Networks</a> \n\n Latest exciting Updates soon,stay tuned!
     """
     LZLINK_TEXT = """Hey {},
-Glad to see you here. It seems that you really love <a href=https://t.me/LazyDeveloperr >LazyDeveloper's</a> work.\n\n<b>File to LiNK converting</b> feature will be available soon, please join <a href=https://t.me/LazyDeveloper>Dev Channel</a> and stay tuned for next <a href=https://t.me/LazyDeveloper>update</a>.\n\n  🐞 Report Bug here: <a href=http://t.me/LazyDeveloperSupport>LazyDev Support</a>
+Glad to see you here. It seems that you really love our channel <a href=https://t.me/sablinkhere >Ultimate Link Provider</a> 💎\n\n<b>Get all Contents</b> && Backup links at <a href=https://t.me/DH_Networks>Direct Hub Networks</a> \n\n Latest exciting Updates soon,stay tuned!
     """
     DNT_TEXT = """Hey sweetie {},
-Thanks for thinking about us.\nIt seems that you really love <a href=https://t.me/LazyDeveloperr >LazyDeveloper's</a> work.\n\n<b>For your kind information, we do not ask or force anyone for any kind of payment</b>. But if you really want to donate us then you can send money to us from below links...\n\n💵 Reach Donation Page : <a href=http://t.me/DonateLazyDeveloper>Click here...</a>\n\nT❤️ hank you so much..
+Thanks for thinking about us.\nIt seems that you really finds our channel helpful ❤️2U \n Please help me to spread our link <a href=https://t.me/sablinkhere >Ultimate Link Provider</a> 💎\n\n<b>You're a Part of family </b> Be our strength💪 & growth📈  <a href=https://t.me/DH_Networks>Direct Hub Networks</a> \n\n Get all the benefits of Premium for 👉FREE!😍
     """
     REQ_AUTH_TEXT = """Hello {},
-\nSorry sweetie.. You must have to be the Authentic User to complete this operation...\n\n👮‍♀ REPORT ISSUE HERE: <a href=https://t.me/LazyDeveloperSupport>LazyDeveloper Support</a>\n\n
+\nSorry sweetie.. You must have to be the Authentic User to complete this operation...\n\n👮‍♀ REPORT ISSUE HERE: <a href=https://t.me/DH_Support_official>Support</a>\n\n
     """
     
     TEXT = "sᴇɴᴅ ᴍᴇ ᴀɴʏ ᴄᴜsᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ ᴛᴏ sᴇᴛ ɪᴛ"
@@ -69,20 +69,16 @@ Here is the help for my COMMANDS."""
 
 """
     ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
-✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/LazyDeveloper>LazyDeveloper</a>
+✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/DH_Networks>DH NETWORKS</a>
 ✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
 ✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
 ✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
 ✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: 𝙷𝙴𝚁𝙾𝙺𝚄
 ✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v10.0.0 [ 𝙱𝙴𝚃𝙰 ]"""
 
-    SOURCE_TXT = """<b>NOTE:</b>
-- Lazy Princess is an open source project. 
-- Source - https://github.com/LazyDeveloperr/LazyPrincess  
-- Please give a star to this repo after fork. Salute to <a href=https://t.me/LazyDeveloperr>LazyDeveloper</a> for adding extra features in me.
 
 <b>DEV:</b>
-- 🦋 <a href=https://t.me/LazyDeveloper>LazyDeveloper</a> 🦋"""
+- 🦋 <a href=https://t.me/DH_Networks>DH Networks</a> 🦋"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and LazyPriness will respond whenever that keyword hits the message
@@ -107,7 +103,7 @@ Here is the help for my COMMANDS."""
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/LazyDeveloper)</code>
+<code>[Button Text](buttonurl:https://t.me/sablinkhere)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
