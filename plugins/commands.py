@@ -445,15 +445,15 @@ async def settings(client, message):
     else:
         pass
 
-        if SHORTLINK_MODE == True
+        if SHORTLINK_MODE == True:
         buttons = [
             [
                 InlineKeyboardButton(
-                    'Rᴇsᴜʟᴛ Pᴀɢᴇ',
+                    'RESULT PAGE',
                     callback_data=f'setgs#button#{settings["button"]}#{grp_id}',
                 ),
                 InlineKeyboardButton(
-                    'Bᴜᴛᴛᴏɴ' if settings["button"] else 'Tᴇxᴛ',
+                    'BUTTON' if settings["button"] else 'Tᴇxᴛ',
                     callback_data=f'setgs#button#{settings["button"]}#{grp_id}',
                 ),
             ],
