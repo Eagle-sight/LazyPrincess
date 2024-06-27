@@ -432,6 +432,13 @@ async def settings(client, message):
         return
 
     settings = await get_settings(grp_id)
+    try:
+        if settings['max_btn']:
+            settings = await get_settings(grp_id)
+    except KeyError:
+    #    await save_group_settings(grp_id, 'fsub', None)
+        await save_group_settings(grp_id, 'max_btn', False)
+        settings = await get_settings(grp_id)
 
     if settings is not None:
         if message.from_user.id in ADMINS:
