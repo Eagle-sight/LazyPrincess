@@ -438,11 +438,11 @@ async def settings(client, message):
             buttons = [
             [
                 InlineKeyboardButton(
-                    'Rᴇsᴜʟᴛ Pᴀɢᴇ',
+                    'RESULT PAGE',
                     callback_data=f'setgs#button#{settings["button"]}#{grp_id}',
                 ),
                 InlineKeyboardButton(
-                    'Bᴜᴛᴛᴏɴ' if settings["button"] else 'Tᴇxᴛ',
+                    'BUTTON' if settings["button"] else 'TEXT',
                     callback_data=f'setgs#button#{settings["button"]}#{grp_id}',
                 ),
             ],
@@ -511,11 +511,11 @@ async def settings(client, message):
             buttons = [
             [
                 InlineKeyboardButton(
-                    'Rᴇsᴜʟᴛ Pᴀɢᴇ',
+                    'RESULT PAGE',
                     callback_data=f'setgs#button#{settings["button"]}#{grp_id}',
                 ),
                 InlineKeyboardButton(
-                    'Bᴜᴛᴛᴏɴ' if settings["button"] else 'Tᴇxᴛ',
+                    'BUTTON' if settings["button"] else 'TEXT',
                     callback_data=f'setgs#button#{settings["button"]}#{grp_id}',
                 ),
             ],
