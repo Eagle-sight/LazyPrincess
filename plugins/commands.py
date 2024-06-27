@@ -445,7 +445,6 @@ async def settings(client, message):
     else:
         pass
 
-  if settings is not None:
         if message.from_user.id in ADMINS:
         buttons = [
             [
@@ -592,6 +591,11 @@ async def settings(client, message):
                 ),
             ],
         ]
+               if settings is not None:
+        btn = [[
+                InlineKeyboardButton("Oᴘᴇɴ Hᴇʀᴇ ↓", callback_data=f"opnsetgrp#{grp_id}"),
+                InlineKeyboardButton("Oᴘᴇɴ Iɴ PM ⇲", callback_data=f"opnsetpm#{grp_id}")
+              ]]
 
         reply_markup = InlineKeyboardMarkup(buttons)
 
