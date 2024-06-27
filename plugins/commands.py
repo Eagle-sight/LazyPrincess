@@ -445,7 +445,7 @@ async def settings(client, message):
     else:
         pass
 
-        if URL_MODE == True:
+        if URL_MODE is True:
         buttons = [
             [
                 InlineKeyboardButton(
