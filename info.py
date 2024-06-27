@@ -83,7 +83,7 @@ LAZY_YT_HANDLE = environ.get('LAZY_YT_HANDLE','powerful_motive.')  # WITHOUT @ [
 MOVIE_GROUP_USERNAME = environ.get('MOVIE_GROUP_USERNAME', "movie_search_download") #[ without @ ]
 
 # Url Shortner
-URL_MODE = is_enabled((environ.get("URL_MODE","False")), False)
+URL_MODE = bool(environ.get('URL_MODE', False))
 URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', '') #Always use website url from api section 
 URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', '')
 LZURL_PRIME_USERS = [int(lazyurlers) if id_pattern.search(lazyurlers) else lazyurlers for lazyurlers in environ.get('LZURL_PRIME_USERS', '').split()]
