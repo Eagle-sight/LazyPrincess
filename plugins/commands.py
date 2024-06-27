@@ -524,7 +524,7 @@ async def settings(client, message):
                     callback_data=f'setgs#is_shortlink#{settings["is_shortlink"]}#{grp_id}',
                 ),
                 InlineKeyboardButton(
-                    '✔ ON' if settings["is_shortlink"] else '✘ Oғғ',
+                    '✅ ON' if settings["is_shortlink"] else '❌ Oғғ',
                     callback_data=f'setgs#is_shortlink#{settings["is_shortlink"]}#{grp_id}',
                 ),
             ],
